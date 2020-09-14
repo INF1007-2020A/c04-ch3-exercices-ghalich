@@ -65,16 +65,16 @@ FAIL: test_to_radians (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 67, in test_to_radians
     'Mauvais calcul de degres -> radians'
-AssertionError: Lists differ: [-0.1, 0.2, 6.3, 7.0] != [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748]
+AssertionError: Lists differ: [2.0, 3711.4, 195.8, 441.6] != [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748]
 
 First differing element 0:
--0.1
+2.0
 -0.08668468618238503
 
-- [-0.1, 0.2, 6.3, 7.0]
+- [2.0, 3711.4, 195.8, 441.6]
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.005s
+Ran 7 tests in 0.004s
 
 FAILED (failures=4)
