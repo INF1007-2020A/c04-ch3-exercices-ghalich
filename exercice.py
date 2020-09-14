@@ -21,7 +21,7 @@ def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float
 
 
 def to_degrees(angle_rads: float) -> tuple:
-    return ()
+    return (math.mi)
 
 
 def to_celsius(temperature: float) -> float:
